@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kanban
+    username: ${POSTGRES_USER:kanban}
+    password: ${POSTGRES_PASSWORD}
+
+  flyway:
+    enabled: true
